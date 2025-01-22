@@ -9,7 +9,12 @@ public class E06CalculateBillTotal {
 	//45.12
 	//92.50
 	public static void main(String[] args) {
-		System.out.println("Bill total:");
+		double bill1 = 89.50;
+		double bill2 = 14.75;
+		double bill3 = 45.12;
+		double bill4 = 92.50;
+		double billtotal = bill1 + bill2 + bill3 + bill4;
+		System.out.println("Bill total: " + billtotal);
 	}
 }
 
